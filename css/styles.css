@@ -1,0 +1,175 @@
+abody {
+	font-family: 'Montserrat';
+	font-weight: 40;
+}
+
+#title {
+	background-color: #ff4c68;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	size: 3.5rem;
+	line-height: 1.5;
+	color: white;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+}
+
+p {
+	color: #afafaf;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+	font-weight: bold;
+	position: relative;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+/* Download Buttons */
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+#iphone-image {
+	width: 19%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 25%;
+}
+
+/* Features Section */
+#features {
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+.feature-box i {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.feature-box i:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-images {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-card {
+	padding: 2% 3%;
+}
+
+/* call to action */
+
+#cta{
+	color: white;
+	text-align: center;
+	background-color: #ff4c68;
+    padding: 7% 15%;
+	margin-top: -50px;
+}
+
+#cta h3{
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: 3.5rem;
+}
+
+/* Footer section */
+
+#footer{
+		margin: 55px;
+	padding: 13px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#footer i{
+	padding: 19px 10px;
+	cursor: pointer;
+}
+/* Responviness */
+
+@media (max-width: 1028px) {
+
+	#title{
+		text-align: center;
+	}
+
+	#iphone-image{
+		position: static;
+		transform: rotate(0);
+		width: 60%;
+	}
+}
